@@ -1,0 +1,61 @@
+[
+{
+"fname":"Maxim",
+"lname":"Belous",
+"adr":{
+	"postcode":165650,
+	"city":"Koryazhma",
+	"street":"Arkhangelskaya",
+	"buildNo":19,
+	"aprtmt":101
+	},
+"phone":[
+	"952 111-11-11",
+	"952 222-22-22"
+	],
+"email":[
+	"home@mail.ru",
+	"work@mail.ru"
+	],
+"notes":"Example 1"
+},
+{
+"fname":"Maxim",
+"lname":"Belous",
+"adr":{
+	"postcode":165650,
+	"city":"Koryazhma",
+	"street":"Arkhangelskaya",
+	"buildNo":19,
+	"aprtmt":101
+	},
+"phone":[
+	"952 111-11-11",
+	"952 222-22-22"
+	],
+"email":[
+	"home@mail.ru",
+	"work@mail.ru"
+	],
+"notes":"Example 2"
+},{
+"fname":"Maxim",
+"lname":"Belous",
+"adr":{
+	"postcode":165650,
+	"city":"Koryazhma",
+	"street":"Arkhangelskaya",
+	"buildNo":19,
+	"aprtmt":101
+	},
+"phone":[
+	"952 111-11-11",
+	"952 222-22-22"
+	],
+"email":[
+	"home@mail.ru",
+	"work@mail.ru"
+	],
+"notes":"Example 3"
+}
+]
