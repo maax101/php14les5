@@ -1,5 +1,5 @@
 <?php
-$notes = 'notes.txt';
+$notes = 'notes.json';
 $content = json_decode(file_get_contents($notes), true);
 ?>	
 <html> 
