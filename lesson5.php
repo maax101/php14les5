@@ -24,17 +24,23 @@ $content = json_decode(file_get_contents($notes), true);
   					<td><?=$v['fname']?></td>
   					<td><?=$v['lname']?></td>
   					<td>
-	  					<?=$v['adr']['postcode']?></br>
-	  					<?=$v['adr']['city']?></br>
-	  					<?=$v['adr']['street']?></br>
-	  					<?=$v['adr']['buildNo']?></br>
-	  					<?=$v['adr']['aprtmt']?></br>
+	  					Индекс: <?=$v['adr']['postcode']?>,</br>
+	  					Город: <?=$v['adr']['city']?>,</br>
+	  					ул. : <?=$v['adr']['street']?>,</br>
+	  					д. №: <?=$v['adr']['buildNo']?>,</br>
+	  					кв. №: <?=$v['adr']['aprtmt']?>.</br>
+  					</td>         
+                       
+  					<td>
+            <?php foreach ($v['phone'] as $value) {?>
+            <?=$value?></br>
+  					<?php } ?>
   					</td>
-  					<td><?=$v['phone'][0]?></br>
-  						<?=$v['phone'][1]?></br>
-  					</td>
-  					<td><?=$v['email'][0]?></br>
-  						<?=$v['email'][1]?></br>
+          
+  					<td>
+            <?php foreach ($v['email'] as $value) {?>
+            <?=$value?></br>
+            <?php } ?>
   					</td>
   					<td><?=$v['notes']?></td>
   				</tr>
